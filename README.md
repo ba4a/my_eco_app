@@ -116,7 +116,7 @@ This project is open-source and available under the **MIT License**.
 ---
 
 ## 💡 Author
-Developed by **Mumshad Mannambeth**
+Developed by **Taqwa Elsayed Mohammed**
 
 ---
 
