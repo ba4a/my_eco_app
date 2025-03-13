@@ -15,7 +15,7 @@ This repository provides a fully automated **Bash script** for deploying an **E-
 ## 🛠️ Prerequisites
 Before running the script, ensure you have:
 - **An AWS EC2 instance** running **Amazon Linux 2 or Amazon Linux 2023**
-- **SSH access** to the instance
+- **SSH access** to the instance via **PuTTY**
 - **Sudo/root privileges** on the instance
 - **An active internet connection** (to install packages and clone the repository)
 
@@ -32,10 +32,11 @@ Before running the script, ensure you have:
    - **Allow SSH (22)** for remote access.
    - **Allow HTTP (80)** for the web application.
    - **Allow MySQL (3306)** if you need remote database access.
-6. Launch the instance and connect using:
-   ```bash
-   ssh -i your-key.pem ec2-user@your-ec2-ip
-   ```
+6. Launch the instance and connect using **PuTTY**:
+   - Convert your `.pem` key to `.ppk` using PuTTYgen.
+   - Open **PuTTY**, enter your EC2 public IP, and use the `.ppk` key for authentication.
+
+---
 
 ### **2️⃣ Clone the Repository & Run the Script**
 1. **Clone this repository** into your EC2 instance:
@@ -122,4 +123,11 @@ Developed by **Taqwa Elsayed Mohammed**
 
 ## 🤝 Contributing
 Feel free to open issues or submit pull requests to improve this script!
+
+
+
+![image](https://github.com/user-attachments/assets/0af533a1-4307-41b3-8e2c-9100544aac6e)
+![image](https://github.com/user-attachments/assets/12587826-b511-42bc-b50e-24a2b2e5deaa)
+
+
 
